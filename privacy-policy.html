@@ -86,6 +86,12 @@
         privately — see below.</td>
   </tr>
   <tr>
+    <td>Which of our apps you have signed into, and when each was last used</td>
+    <td>Only if you sign in with Google</td>
+    <td>So one account works across our apps, and to count how many people use
+        them. Stored privately with your profile, never published.</td>
+  </tr>
+  <tr>
     <td>Game history: score, stage, difficulty, duration and time of each run</td>
     <td>When a game ends</td>
     <td>To show you your own past games. Kept on your device; also backed up to
@@ -102,7 +108,7 @@
 <h3>Your email address is never public</h3>
 <p>
   The leaderboard collection is world-readable — that is what makes a global
-  ranking possible — and it contains only a display name and a number. Your
+  ranking possible — and it contains only a display name, a score, and the time that score was set. Your
   email address, profile name and game history live in a separate area that
   security rules restrict to your account alone. No other player, and no
   anonymous visitor, can read them.
@@ -132,7 +138,11 @@
   <li><strong>Google AdMob</strong> — serving and measuring ads.</li>
   <li><strong>Google Firebase</strong> (Authentication and Cloud Firestore) —
       the account identifier, leaderboard entries, and your private profile and
-      game history. Data is stored in Google’s <code>europe-west2</code> region.</li>
+      game history. This data is stored on Google servers in the
+      <strong>United States</strong> (Firestore multi-region <code>nam5</code>).
+      If you are in the UK or the EEA, that means your data is transferred
+      outside your country; the transfer relies on Google Cloud’s standard
+      contractual clauses.</li>
   <li><strong>Google Play Billing</strong> — the ad-free purchase.</li>
 </ul>
 <p>
