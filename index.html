@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tessera — Block Puzzle</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1c1b22; --muted: #5c5b66;
+    --rule: #e3e2ea; --accent: #3f51b5; --card: #f6f6fa;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #131318; --fg: #e6e5ec; --muted: #a2a1ad;
+      --rule: #2c2b34; --accent: #9fa8f5; --card: #1c1c23;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0 auto; padding: 4rem 1.25rem 5rem; max-width: 40rem;
+    background: var(--bg); color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif;
+  }
+  h1 { font-size: 2rem; margin: 0 0 .35rem; letter-spacing: -.01em; }
+  .sub { color: var(--muted); margin: 0 0 2.5rem; }
+  a { color: var(--accent); }
+  ul { padding-left: 1.25rem; }
+  li { margin: .45rem 0; }
+  footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--rule);
+           color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+
+<h1>Tessera</h1>
+<p class="sub">A block puzzle game for Android.</p>
+
+<p>
+  Drag pieces onto the board, clear full rows and columns, and keep going for as
+  long as there is room. Playable without an account; sign in with Google only if
+  you want your scores to survive a reinstall.
+</p>
+
+<ul>
+  <li><a href="privacy-policy.html">Privacy policy</a></li>
+  <li><a href="mailto:sirajurrahman19@gmail.com">Contact</a></li>
+</ul>
+
+<footer>
+  An independent project by Siraj Ur Rahman. &ldquo;Tessera&rdquo; refers to the
+  small tiles that make up a mosaic.
+</footer>
+
+</body>
+</html>

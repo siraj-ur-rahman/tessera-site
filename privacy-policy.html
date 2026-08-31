@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Tessera</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1c1b22; --muted: #5c5b66;
+    --rule: #e3e2ea; --accent: #3f51b5; --card: #f6f6fa;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #131318; --fg: #e6e5ec; --muted: #a2a1ad;
+      --rule: #2c2b34; --accent: #9fa8f5; --card: #1c1c23;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0 auto; padding: 2.5rem 1.25rem 5rem; max-width: 46rem;
+    background: var(--bg); color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif;
+  }
+  h1 { font-size: 1.85rem; margin: 0 0 .35rem; letter-spacing: -.01em; }
+  h2 { font-size: 1.15rem; margin: 2.25rem 0 .6rem;
+       padding-top: 1.25rem; border-top: 1px solid var(--rule); }
+  h3 { font-size: 1rem; margin: 1.4rem 0 .35rem; }
+  .sub { color: var(--muted); margin: 0 0 2rem; }
+  a { color: var(--accent); }
+  code { background: var(--card); padding: .1em .35em; border-radius: 4px;
+         font-size: .9em; }
+  table { border-collapse: collapse; width: 100%; margin: .75rem 0 1.25rem;
+          display: block; overflow-x: auto; }
+  th, td { text-align: left; padding: .55rem .7rem; border-bottom: 1px solid var(--rule);
+           vertical-align: top; font-size: .95rem; }
+  th { font-weight: 600; }
+  .card { background: var(--card); border-radius: 10px; padding: 1rem 1.15rem;
+          margin: 1.25rem 0; }
+  ul { padding-left: 1.25rem; }
+  li { margin: .3rem 0; }
+  footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--rule);
+           color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy — Tessera</h1>
+<p class="sub">Applies to the Android app <code>com.tessera.blockpuzzle</code>
+(“Tessera – Block Puzzle”).<br>Last updated: 31 August 2026</p>
+
+<div class="card">
+  <strong>The short version.</strong> Tessera is playable without an account.
+  If you never sign in, the game stores your progress only on your device. Ads
+  are served by Google AdMob, which collects device and advertising identifiers.
+  Signing in with Google is optional and exists so your scores survive a
+  reinstall. Nothing is ever sold.
+</div>
+
+<h2>What is collected, and why</h2>
+
+<table>
+  <tr><th>Data</th><th>When</th><th>Why</th></tr>
+  <tr>
+    <td>Advertising ID, device and app info, coarse location derived from IP</td>
+    <td>Whenever ads are shown</td>
+    <td>To serve and measure ads, and to limit how often you see the same one.
+        Collected by Google AdMob, not by us.</td>
+  </tr>
+  <tr>
+    <td>An anonymous account identifier</td>
+    <td>On first launch, if the network is available</td>
+    <td>So a score can be attributed to “you” on the leaderboard without asking
+        for any personal detail.</td>
+  </tr>
+  <tr>
+    <td>Chosen display name and best score</td>
+    <td>When a score is published</td>
+    <td>To show the global ranking. This is the only data that is publicly
+        readable.</td>
+  </tr>
+  <tr>
+    <td>Email address and Google profile name</td>
+    <td>Only if you choose to sign in with Google</td>
+    <td>To recognise your account across devices and after a reinstall. Stored
+        privately — see below.</td>
+  </tr>
+  <tr>
+    <td>Game history: score, stage, difficulty, duration and time of each run</td>
+    <td>When a game ends</td>
+    <td>To show you your own past games. Kept on your device; also backed up to
+        your account if you are signed in.</td>
+  </tr>
+  <tr>
+    <td>Purchase status of the ad-free upgrade</td>
+    <td>If you buy it</td>
+    <td>To stop showing ads. Handled by Google Play Billing; we never see your
+        payment details.</td>
+  </tr>
+</table>
+
+<h3>Your email address is never public</h3>
+<p>
+  The leaderboard collection is world-readable — that is what makes a global
+  ranking possible — and it contains only a display name and a number. Your
+  email address, profile name and game history live in a separate area that
+  security rules restrict to your account alone. No other player, and no
+  anonymous visitor, can read them.
+</p>
+
+<h2>Advertising</h2>
+<p>
+  Ads are provided by <a href="https://support.google.com/admob/answer/6128543"
+  rel="noopener">Google AdMob</a>. Google’s handling of that data is described
+  in the <a href="https://policies.google.com/technologies/partner-sites"
+  rel="noopener">Google Privacy &amp; Terms</a>.
+</p>
+<p>
+  Before any personalised ad is requested, Tessera shows a consent prompt and
+  respects the choice you make. Choosing not to consent does not remove ads; it
+  limits them to non-personalised ones, which do not use your advertising ID to
+  build a profile. You can reopen the prompt at any time from the app to change
+  your mind, and you can reset or delete your advertising ID in Android’s
+  Settings under <em>Privacy → Ads</em>.
+</p>
+<p>
+  Buying the ad-free upgrade stops ad requests altogether.
+</p>
+
+<h2>Who else processes this data</h2>
+<ul>
+  <li><strong>Google AdMob</strong> — serving and measuring ads.</li>
+  <li><strong>Google Firebase</strong> (Authentication and Cloud Firestore) —
+      the account identifier, leaderboard entries, and your private profile and
+      game history. Data is stored in Google’s <code>europe-west2</code> region.</li>
+  <li><strong>Google Play Billing</strong> — the ad-free purchase.</li>
+</ul>
+<p>
+  There are no other third parties. Your data is not sold, and it is not shared
+  for anyone else’s advertising.
+</p>
+
+<h2>Children</h2>
+<p>
+  Tessera is not directed at children under 13, and we do not knowingly collect
+  data from them. If you believe a child has provided personal information,
+  contact us using the address below and it will be deleted.
+</p>
+
+<h2>Keeping and deleting your data</h2>
+<ul>
+  <li><strong>Game history</strong> — clear it from the app’s “Your games”
+      screen. That deletes it from the device and from your account.</li>
+  <li><strong>Leaderboard entry, email and profile</strong> — email the address
+      below and it will be removed, usually within 30 days.</li>
+  <li><strong>Everything local</strong> — uninstalling the app removes all data
+      held on the device.</li>
+</ul>
+<p>
+  Depending on where you live, you may have rights to access, correct, export or
+  erase your personal data, and to object to how it is processed. Use the
+  contact address below to exercise any of them.
+</p>
+
+<h2>Changes</h2>
+<p>
+  If this policy changes materially, the date at the top of the page will change
+  and the updated version will be published here before the change takes effect.
+</p>
+
+<h2>Contact</h2>
+<p>
+  <a href="mailto:sirajurrahman19@gmail.com">sirajurrahman19@gmail.com</a>
+</p>
+
+<footer>
+  Tessera is an independent project by Siraj Ur Rahman. “Tessera” refers to the
+  small tiles that make up a mosaic.
+</footer>
+
+</body>
+</html>
